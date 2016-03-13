@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YJLoopViewFlowLayout.h
 //  01-网易新闻-01
 //
 //  Created by Yip-Jun on 16/3/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YJLoopViewFlowLayout : UICollectionViewFlowLayout
 
 @end
-

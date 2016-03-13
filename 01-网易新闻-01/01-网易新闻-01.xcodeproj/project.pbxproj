@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		51053F8A1C959AAE00BCB6D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51053F891C959AAE00BCB6D8 /* main.m */; };
 		51053F8D1C959AAE00BCB6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51053F8C1C959AAE00BCB6D8 /* AppDelegate.m */; };
-		51053F901C959AAE00BCB6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51053F8F1C959AAE00BCB6D8 /* ViewController.m */; };
 		51053F931C959AAE00BCB6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51053F911C959AAE00BCB6D8 /* Main.storyboard */; };
 		51053F951C959AAE00BCB6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51053F941C959AAE00BCB6D8 /* Assets.xcassets */; };
 		51053F981C959AAE00BCB6D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51053F961C959AAE00BCB6D8 /* LaunchScreen.storyboard */; };
 		51053FA31C959AAE00BCB6D8 /* _1______01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51053FA21C959AAE00BCB6D8 /* _1______01Tests.m */; };
 		51053FAE1C959AAF00BCB6D8 /* _1______01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51053FAD1C959AAF00BCB6D8 /* _1______01UITests.m */; };
+		51862BFA1C95A7DC00D65184 /* YJNetworkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51862BF91C95A7DC00D65184 /* YJNetworkingTool.m */; };
+		51862BFE1C95A9AA00D65184 /* YJHeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 51862BFD1C95A9AA00D65184 /* YJHeadLine.m */; };
+		51862C0A1C95B3B300D65184 /* YJHeadLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51862C091C95B3B300D65184 /* YJHeadLineViewController.m */; };
+		51862C0F1C95B45100D65184 /* YJLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51862C0E1C95B45100D65184 /* YJLoopView.m */; };
+		51862C121C95B75C00D65184 /* YJLoopViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 51862C111C95B75C00D65184 /* YJLoopViewFlowLayout.m */; };
+		519650111C95D8EE00882D28 /* YJLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 519650101C95D8EE00882D28 /* YJLoopViewCell.m */; };
+		519650141C95E74E00882D28 /* HMWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 519650131C95E74E00882D28 /* HMWeakTimerTarget.m */; };
 		D04D934A73A680832CBB54E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900A3DA38F29B45A3A66E6D4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +46,6 @@
 		51053F891C959AAE00BCB6D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51053F8B1C959AAE00BCB6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51053F8C1C959AAE00BCB6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		51053F8E1C959AAE00BCB6D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		51053F8F1C959AAE00BCB6D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		51053F921C959AAE00BCB6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51053F941C959AAE00BCB6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51053F971C959AAE00BCB6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,20 @@
 		51053FA91C959AAF00BCB6D8 /* 01-网易新闻-01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-网易新闻-01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51053FAD1C959AAF00BCB6D8 /* _1______01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1______01UITests.m"; sourceTree = "<group>"; };
 		51053FAF1C959AAF00BCB6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51862BF81C95A7DC00D65184 /* YJNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJNetworkingTool.h; sourceTree = "<group>"; };
+		51862BF91C95A7DC00D65184 /* YJNetworkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJNetworkingTool.m; sourceTree = "<group>"; };
+		51862BFC1C95A9AA00D65184 /* YJHeadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJHeadLine.h; sourceTree = "<group>"; };
+		51862BFD1C95A9AA00D65184 /* YJHeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJHeadLine.m; sourceTree = "<group>"; };
+		51862C081C95B3B300D65184 /* YJHeadLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJHeadLineViewController.h; sourceTree = "<group>"; };
+		51862C091C95B3B300D65184 /* YJHeadLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJHeadLineViewController.m; sourceTree = "<group>"; };
+		51862C0D1C95B45100D65184 /* YJLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLoopView.h; sourceTree = "<group>"; };
+		51862C0E1C95B45100D65184 /* YJLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLoopView.m; sourceTree = "<group>"; };
+		51862C101C95B75C00D65184 /* YJLoopViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLoopViewFlowLayout.h; sourceTree = "<group>"; };
+		51862C111C95B75C00D65184 /* YJLoopViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLoopViewFlowLayout.m; sourceTree = "<group>"; };
+		5196500F1C95D8EE00882D28 /* YJLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLoopViewCell.h; sourceTree = "<group>"; };
+		519650101C95D8EE00882D28 /* YJLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLoopViewCell.m; sourceTree = "<group>"; };
+		519650121C95E74E00882D28 /* HMWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWeakTimerTarget.h; sourceTree = "<group>"; };
+		519650131C95E74E00882D28 /* HMWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWeakTimerTarget.m; sourceTree = "<group>"; };
 		900A3DA38F29B45A3A66E6D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A486254014E983D4B7A9DBC0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E1BC777ED615C0D1089ACB20 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,10 +134,11 @@
 		51053F871C959AAE00BCB6D8 /* 01-网易新闻-01 */ = {
 			isa = PBXGroup;
 			children = (
+				51862C0C1C95B40C00D65184 /* LoopView */,
+				51862BFB1C95A91F00D65184 /* YJHeadLine */,
+				51862BF71C95A7DC00D65184 /* Tool */,
 				51053F8B1C959AAE00BCB6D8 /* AppDelegate.h */,
 				51053F8C1C959AAE00BCB6D8 /* AppDelegate.m */,
-				51053F8E1C959AAE00BCB6D8 /* ViewController.h */,
-				51053F8F1C959AAE00BCB6D8 /* ViewController.m */,
 				51053F911C959AAE00BCB6D8 /* Main.storyboard */,
 				51053F941C959AAE00BCB6D8 /* Assets.xcassets */,
 				51053F961C959AAE00BCB6D8 /* LaunchScreen.storyboard */,
@@ -153,6 +172,41 @@
 				51053FAF1C959AAF00BCB6D8 /* Info.plist */,
 			);
 			path = "01-网易新闻-01UITests";
+			sourceTree = "<group>";
+		};
+		51862BF71C95A7DC00D65184 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				51862BF81C95A7DC00D65184 /* YJNetworkingTool.h */,
+				51862BF91C95A7DC00D65184 /* YJNetworkingTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		51862BFB1C95A91F00D65184 /* YJHeadLine */ = {
+			isa = PBXGroup;
+			children = (
+				51862BFC1C95A9AA00D65184 /* YJHeadLine.h */,
+				51862BFD1C95A9AA00D65184 /* YJHeadLine.m */,
+				51862C081C95B3B300D65184 /* YJHeadLineViewController.h */,
+				51862C091C95B3B300D65184 /* YJHeadLineViewController.m */,
+			);
+			path = YJHeadLine;
+			sourceTree = "<group>";
+		};
+		51862C0C1C95B40C00D65184 /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				519650121C95E74E00882D28 /* HMWeakTimerTarget.h */,
+				519650131C95E74E00882D28 /* HMWeakTimerTarget.m */,
+				51862C0D1C95B45100D65184 /* YJLoopView.h */,
+				51862C0E1C95B45100D65184 /* YJLoopView.m */,
+				51862C101C95B75C00D65184 /* YJLoopViewFlowLayout.h */,
+				51862C111C95B75C00D65184 /* YJLoopViewFlowLayout.m */,
+				5196500F1C95D8EE00882D28 /* YJLoopViewCell.h */,
+				519650101C95D8EE00882D28 /* YJLoopViewCell.m */,
+			);
+			path = LoopView;
 			sourceTree = "<group>";
 		};
 		FFD23871966FE96B1D8490AA /* Pods */ = {
@@ -229,6 +283,7 @@
 		51053F7D1C959AAE00BCB6D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = YIPWJ;
 				TargetAttributes = {
@@ -345,9 +400,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51053F901C959AAE00BCB6D8 /* ViewController.m in Sources */,
+				519650141C95E74E00882D28 /* HMWeakTimerTarget.m in Sources */,
 				51053F8D1C959AAE00BCB6D8 /* AppDelegate.m in Sources */,
+				51862C0F1C95B45100D65184 /* YJLoopView.m in Sources */,
+				51862C121C95B75C00D65184 /* YJLoopViewFlowLayout.m in Sources */,
+				519650111C95D8EE00882D28 /* YJLoopViewCell.m in Sources */,
+				51862BFA1C95A7DC00D65184 /* YJNetworkingTool.m in Sources */,
+				51862BFE1C95A9AA00D65184 /* YJHeadLine.m in Sources */,
 				51053F8A1C959AAE00BCB6D8 /* main.m in Sources */,
+				51862C0A1C95B3B300D65184 /* YJHeadLineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
